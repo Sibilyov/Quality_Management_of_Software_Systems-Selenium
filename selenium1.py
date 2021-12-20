@@ -5,7 +5,7 @@ from selenium1 import webdriver
 from selenium1.webdriver.common.by import By
 driver = webdriver.Chrome()
 
-driver.get('https://www.nike.com/')
+driver.get('https://www.ozon.ru/')
 
 # Проверяет поиск по сайту
 search_box = driver.find_element(By.XPATH,
